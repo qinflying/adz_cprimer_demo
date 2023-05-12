@@ -7,11 +7,11 @@ int main(void){
     float float_value;
     double double_value;
     
-    printf("int sizeof = %d", sizeof(int));
-    printf("short sizeof = %d", sizeof(short));
-    printf("long sizeof = %d", sizeof(long));
-    printf("float sizeof = %d", sizeof(float));
-    printf("double sizeof = %d", sizeof(double));
+    printf("int sizeof = %ld", sizeof(int));
+    printf("short sizeof = %ld", sizeof(short));
+    printf("long sizeof = %ld", sizeof(long));
+    printf("float sizeof = %ld", sizeof(float));
+    printf("double sizeof = %ld", sizeof(double));
 
     return 0;
 }
